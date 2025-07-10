@@ -10,23 +10,27 @@
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         res = []
+        # sorting the array allows us to skips some enumerations later
         nums = sorted(nums)
 
         for i, a in enumerate(nums):
+            # if i is the same as the value in front of it, we can skip it in the future
             if i > 0 and a == nums[i - 1]:
                 continue
-
-            l, r = i + 1, len(nums) - 1
-            while l < r:
-                threeSum = a + nums[l] + nums[r]
+            # this loop will be largely the same as the 2Sum2 solution which uses pointers at opposite ends
+            left = i + 1
+            right = len(nums) - 1
+            while left < right:
+                threeSum = a + nums[left] + nums[right]
                 if threeSum > 0:
-                    r -= 1
+                    right -= 1
                 elif threeSum < 0:
-                    l += 1
+                    left += 1
                 else:
-                    res.append[a, nums[l], nums[r]]
-                    while nums[l] == nums[l - 1] and l < r:
-                        l += 1
+                    res.append([a, nums[left], nums[right]])
+                    left += 1
+                    while nums[left] == nums[left - 1] and left < right:
+                        left += 1
 
         return res
 
