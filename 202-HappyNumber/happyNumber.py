@@ -6,24 +6,28 @@
 
 class Solution:
     def isHappy(self, n: int) -> bool:
+        # list of sums that have been checked for happy num status
         used_sums = []
-
         while n:
             digits = []
+            # mod to get the rightmost digit, then floor division to 'chop' it off
             while n:
                 next = n % 10
                 n = n // 10
                 digits.append(next)
-
+            # Calculate the sum of the squares of each digit
             sum = 0
             for digit in digits:
                 sum += digit ** 2
-
+            # A happy number can eventually be reduced to exactly one after a few loops
             if sum == 1:
                 return True
+            # An unhappy number will find itself in an infinite loop. as soon as we
+            # hit the same sum twice, we know we will never exit the loop naturally
             elif sum in used_sums:
                 return False
             used_sums.append(sum)
+            # After we update the checked sums, begin next loop with recently calculated sum
             n = sum
         return False
 
