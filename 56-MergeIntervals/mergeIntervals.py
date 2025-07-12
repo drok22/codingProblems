@@ -2,7 +2,8 @@ class Solution:
     def merge(self, intervals: list[list[int]]) -> list[list[int]]:
         res = []
         prev_interval = None
-        intervals = sorted(intervals, key=lambda i: (i[0], i[1]))
+        # sorting the list first adds some time but makes this algorithm run a lot smoother.
+        intervals.sort(key=lambda i: (i[0]))
         # hold onto the previous interval and compare it to the next interval. If they overlap, merge them and add to the result
         # reset the previous interval to the added interval before the loop restarts to check if that interval also overlaps.
         for interval in intervals:
