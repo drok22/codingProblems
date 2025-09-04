@@ -1,0 +1,15 @@
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/bin/Debug/net9.0/LPS
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/bin/Debug/net9.0/LPS.deps.json
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/bin/Debug/net9.0/LPS.runtimeconfig.json
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/bin/Debug/net9.0/LPS.dll
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/bin/Debug/net9.0/LPS.pdb
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/LPS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/LPS.AssemblyInfoInputs.cache
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/LPS.AssemblyInfo.cs
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/LPS.csproj.CoreCompileInputs.cache
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/LPS.sourcelink.json
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/LPS.dll
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/refint/LPS.dll
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/LPS.pdb
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/LPS.genruntimeconfig.cache
+/Users/Dustin/source/codingProblems/5-LongestPalindromicSubstring/LPS/obj/Debug/net9.0/ref/LPS.dll

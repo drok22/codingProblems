@@ -17,11 +17,11 @@ class Solution:
         list_len: int = len(new_nums)
         middle_loc: int = list_len % 2
 
-        if middle_loc == 0: # even len
+        if middle_loc == 0:  # even len
             m1 = new_nums[int((list_len / 2) - 1)]
             m2 = new_nums[int((list_len / 2))]
             median = (m1 + m2) / 2
-        else: # odd len
+        else:  # odd len
             odd_loc = int(list_len / 2)
             print(f'odd_loc: {odd_loc}')
             median = new_nums[odd_loc]
