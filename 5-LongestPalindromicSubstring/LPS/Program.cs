@@ -1,9 +1,10 @@
 ﻿Console.WriteLine("Longest Palindrome");
-Console.WriteLine(Solution.LongestPalindrome("babad"));
-Console.WriteLine(Solution.LongestPalindrome("cbbd"));
-Console.WriteLine(Solution.LongestPalindrome("racecar"));
-Console.WriteLine(Solution.LongestPalindrome("tacocat"));
-Console.WriteLine(Solution.LongestPalindrome("a"));
+var solution = new Solution();
+Console.WriteLine(solution.LongestPalindrome("babad"));
+Console.WriteLine(solution.LongestPalindrome("cbbd"));
+Console.WriteLine(solution.LongestPalindrome("racecar"));
+Console.WriteLine(solution.LongestPalindrome("tacocat"));
+Console.WriteLine(solution.LongestPalindrome("a"));
 
 // Start by checking if a string s is of length L by doing a basic
 // palindrome check algorithm (indices i,j are equivalent at each step)
@@ -13,7 +14,7 @@ Console.WriteLine(Solution.LongestPalindrome("a"));
 
 public class Solution
 {
-    public static string LongestPalindrome(string s)
+    public string LongestPalindrome(string s)
     {
         string palindrome = "";
         for (int length = s.Length; length > 0; length--)

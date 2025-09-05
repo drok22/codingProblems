@@ -1,0 +1,15 @@
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/bin/Debug/net9.0/SOS
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/bin/Debug/net9.0/SOS.deps.json
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/bin/Debug/net9.0/SOS.runtimeconfig.json
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/bin/Debug/net9.0/SOS.dll
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/bin/Debug/net9.0/SOS.pdb
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/SOS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/SOS.AssemblyInfoInputs.cache
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/SOS.AssemblyInfo.cs
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/SOS.csproj.CoreCompileInputs.cache
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/SOS.sourcelink.json
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/SOS.dll
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/refint/SOS.dll
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/SOS.pdb
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/SOS.genruntimeconfig.cache
+/Users/Dustin/source/codingProblems/3110-ScoreOfAString/SOS/obj/Debug/net9.0/ref/SOS.dll
